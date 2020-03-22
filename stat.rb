@@ -1,3 +1,4 @@
+# класс Станция
 class Station
   attr_reader :name, :trains
 
@@ -16,7 +17,7 @@ class Station
   
 end
 
-
+# класс Маршрут
 class Route
   attr_reader :stations
 
@@ -34,6 +35,7 @@ class Route
 
 end
 
+# класс Поезд
 class Train
   attr_reader :type, :wagons, :route
 
